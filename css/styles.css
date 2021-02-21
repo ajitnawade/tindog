@@ -1,0 +1,171 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.headline{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+ padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 18px;
+}
+.nav-link{
+   font-size: 1.5rem;
+}
+ /* Download buttons */
+  .download-button{
+    margin: 5% 3% 5% 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+/* title-image */
+
+.title-image{
+  width: 60%;
+transform: rotate(25deg);
+position: absolute;
+right: 25%;
+}
+
+/* features */
+#features{
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+
+}
+
+.features-row{
+  text-align: center;
+  margin: 8.5% 15%;
+}
+ .features-icon{
+   color: #ef8172;
+
+   padding-bottom: 3%;
+ }
+  .features-icon:hover{
+    color: #ff4c68;
+  }
+.features-heading{
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.features-des{
+  color: #8f8f8f;
+  font-size: 1rem;
+  padding: 2% 11%;
+}
+
+  /* Testimonial-sections  */
+  #testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+
+    color: #fff;
+  }
+.testimonial-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  }
+  .testimonial-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+  }
+
+.carousel-item{
+  padding: 7% 15%;
+}
+  #press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  /* pricing */
+ #pricing{
+   margin: 100px;
+   text-align: center;
+ }
+.price-cards{
+  padding: 3% 2%;
+}
+
+/* CALL TO ACTION */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-heading{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3rem;
+  padding: 7% 25% 0;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 0.8rem;
+  padding: 5%;
+}
+.ft-icon{
+  font-size: 2rem;
+
+}
+.ft-icon i{
+  padding: 2%;
+  color: black;
+}
+.ft-icon i:hover{
+  color:#8f8f8f;
+  cursor: pointer;
+}
+/* media-queries */
+@media (max-width:1080px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .headline{
+    font-size: 2rem;
+  }
+.testimonial-heading{
+  font-size: 1.5rem;
+}
+.cta-heading{
+  font-size: 1.6rem;
+}
+
+}
